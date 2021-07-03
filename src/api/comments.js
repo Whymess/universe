@@ -8,7 +8,7 @@ export const getComments = async (id) => {
   return data;
 };
 
-export const useGetComments = (id) => {
+export const useGetComments = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
   const [data, setData] = useState(null);
