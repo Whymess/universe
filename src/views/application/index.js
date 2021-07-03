@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Post, Loader } from "../../components";
-
 import { useGetPosts } from "../../api/posts";
+
 export default function Application() {
   const { data, execute, isLoading } = useGetPosts();
 

@@ -17,3 +17,8 @@ Thats it as far as guidelines. They are purposely vague because we'd like to see
 - Code well separated into reusable components. You can use any architecture pattern you want as long as you can explain it to us. Don't feel the need to over architect this, it is a simple app, but your code should be clean and maintainable.
 - An understanding of when to use a library or dependency versus building components from scratch. Using dependencies is fine as long as you can speak to why it was the right choice.
 - Use of modern Javascript and React patterns.
+
+
+### Setup and get up and running
+- npm install 
+- npm run start
