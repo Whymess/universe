@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Navbar } from "./components";
-import { Application, Comments } from "./views";
+import { Application, Comments, PageNotFound } from "./views";
 import "./index.scss";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -27,6 +27,7 @@ ReactDOM.render(
         <Switch>
           <NavRoute exact={true} component={Application} path="/" />
           <NavRoute exact={true} component={Comments} path="/comments/:id" />
+          <NavRoute component={PageNotFound} />
         </Switch>
       </Router>
     </div>
