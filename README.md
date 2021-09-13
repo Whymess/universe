@@ -6,7 +6,7 @@ This project is designed to assess your current abilities as a React engineer fo
 =
 Using this sample backend, we want to produce an app that starts on a screen of posts where each cell has the title and body visible. Like a boring Twitter clone. You can use this API to pull those posts: https://jsonplaceholder.typicode.com/posts.
 
-Clicking on a post should show a new screen that is like a detail screen for that post. It can include comments for that post from this route https://jsonplaceholder.typicode.com/posts/1/comments (https://jsonplaceholder.typicode.com/posts). Also include a button for more posts by the same author somewhere on the screen. Clicking that button can take you to a new screen that just lists posts in the same fashion as the first screen but only for the selected author.
+Clicking on a post should show a new screen that is like a detail screen for that post. It can include comments for that post from this route https://jsonplaceholder.typicode.com/posts/1/comments (https://jsonplaceholder.typicode.com/posts). 
 
 These screens can be nested as much as you want. For example click on a post, click on more posts by that author, click on a post, etc.
 
